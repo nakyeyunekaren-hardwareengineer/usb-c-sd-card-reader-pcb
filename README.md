@@ -20,9 +20,6 @@ This project was completed as a practical electronics and PCB design exercise, w
 - power rail verification
 - debugging and validation
 
-Schematic
-<img width="1132" height="677" alt="Screenshot 2026-04-11 at 00 31 02" src="https://github.com/user-attachments/assets/a6e0a074-c3f2-44dc-91b8-c76e38a433f3" />
-
 ## Key Design Approach
 
 Before starting the design, I selected components carefully to make assembly easier and faster through **JLCPCB**. 
@@ -39,6 +36,12 @@ The design used the following key parts:
 - **Molex 503398-1892** — microSD card connector
 - **PRTR5V0U2X / PRTR5V0U2X,215** — USB ESD protection device
 - supporting capacitors, resistors and power components for decoupling, pull-downs and signal support
+
+## 3D image
+<img width="642" height="282" alt="Screenshot 2026-04-11 at 00 45 47" src="https://github.com/user-attachments/assets/20bbc94b-93a6-4713-93d1-3e85b998f90c" />
+
+## Printed board
+![IMG_5067](https://github.com/user-attachments/assets/89e71145-4d97-4a54-9e89-9fdfbe232666)
 
 ## Features
 
