@@ -1,0 +1,34 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\USB_MEMORY_CARD_READER_Project\Project Outputs for USB_MEMORY_CARD_READER_Project\Pick Place for 4_layer_Memory_card_PCB.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       19/03/26
+Time:       23:21
+Revision:   129c6415ca0050c25f2810497a17006dc99584f5
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"R10","1K","TopLayer","FP-RN73R2A-IPC_A","32.3850","18.1705","270","1kO ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thin Film"
+"D1","HSMC-C280","TopLayer","FP-HSMC-C280-MFG","30.2260","18.0340","270","LED RED DIFFUSED 0402 SMD"
+"J1","USB Type C connector","TopLayer","CONN16_C16PIN_SHN","51.9005","13.0928","90","https://jlcpcb.com/partdetail/ShouHan-TYPE_C_16PIN_2MD_073/C2765186?utm_source=chatgpt.com"
+"J2","microSD Memory Card","TopLayer","5033981892","9.8590","10.9120","270","1.10mm Pitch microSD Memory Card Connector, Normal Mount Surface Mount, Push-Push Type, 1.28mm Height"
+"U2","ESD protection diode","TopLayer","SOT190P230X110-4N","41.5650","9.5130","180","PRTR Series 9 V 1 pF Rail-to-Rail ESD Protection Diode - SOT-143B"
+"U1","GL823K","TopLayer","SOP64P600X175-16N","32.9570","11.4630","90","USB 2.0 card reader controller"
+"R9","10k","TopLayer","FP-CRGP0805-IPC_C","23.7490","3.8100","0","CRGP 0805 10K 1% CRGP0805F10K"
+"R8","10k","TopLayer","FP-CRGP0805-IPC_C","23.7490","16.2560","0","CRGP 0805 10K 1% CRGP0805F10K"
+"R7","10k","TopLayer","FP-CRGP0805-IPC_C","23.7490","13.1445","0","CRGP 0805 10K 1% CRGP0805F10K"
+"R6","10k","TopLayer","FP-CRGP0805-IPC_C","23.7490","10.0330","0","CRGP 0805 10K 1% CRGP0805F10K"
+"R5","10k","TopLayer","FP-CRGP0805-IPC_C","23.7490","6.9215","0","CRGP 0805 10K 1% CRGP0805F10K"
+"R4","5R1K","TopLayer","FP-RN73R2A-IPC_C","45.2120","16.1925","90","5.1kO ±0.05% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thin Film"
+"R3","22R","TopLayer","FP-RT0805-MFG","41.6560","12.3190","180","RES SMD 22 OHM 1% 1/8W 0805"
+"R2","22R","TopLayer","FP-RT0805-MFG","41.6560","14.0970","180","RES SMD 22 OHM 1% 1/8W 0805"
+"R1","5R1K","TopLayer","FP-RN73R2A-IPC_C","45.3390","5.3340","270","5.1kO ±0.05% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thin Film"
+"C6","100nF 16V","TopLayer","CAPC0805(2012)145_M","39.2430","5.3500","90","CAP 100nF 16V ±5% 0805 (2012 Metric) Thickness 1.45mm SMD"
+"C5","1uF 0805","TopLayer","FP-CC0805-0_85-MFG","42.2910","5.4610","270","CC0805 1 uF X7R 10.00% 16 V"
+"C4","100nF 16V","TopLayer","CAPC0805(2012)145_M","40.1320","18.2115","270","CAP 100nF 16V ±5% 0805 (2012 Metric) Thickness 1.45mm SMD"
+"C3","100nF 16V","TopLayer","CAPC0805(2012)145_M","35.0788","18.2115","270","CAP 100nF 16V ±5% 0805 (2012 Metric) Thickness 1.45mm SMD"
+"C2","100nF 16V","TopLayer","CAPC0805(2012)145_M","28.1940","18.2880","270","CAP 100nF 16V ±5% 0805 (2012 Metric) Thickness 1.45mm SMD"
+"C1","1uF 0805","TopLayer","FP-CC0805-0_85-MFG","37.5920","18.1610","90","CC0805 1 uF X7R 10.00% 16 V"
