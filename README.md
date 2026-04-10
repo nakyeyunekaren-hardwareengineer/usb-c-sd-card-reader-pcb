@@ -20,6 +20,9 @@ This project was completed as a practical electronics and PCB design exercise, w
 - power rail verification
 - debugging and validation
 
+Schematic
+<img width="1132" height="677" alt="Screenshot 2026-04-11 at 00 31 02" src="https://github.com/user-attachments/assets/a6e0a074-c3f2-44dc-91b8-c76e38a433f3" />
+
 ## Key Design Approach
 
 Before starting the design, I selected components carefully to make assembly easier and faster through **JLCPCB**. 
