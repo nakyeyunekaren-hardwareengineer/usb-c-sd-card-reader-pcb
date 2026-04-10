@@ -25,7 +25,7 @@ This project was completed as a practical electronics and PCB design exercise, w
 Before starting the design, I selected components carefully to make assembly easier and faster through **JLCPCB**. 
 I made sure the parts I chose were available in **JLCPCB Basic** or **Extended** libraries so that the board could be manufactured and assembled with minimal friction.
 
-This was an important practical lesson in designing not just for functionality, but also for **manufacturability** and **assembly convenience**.
+It was important in designing not just for functionality, but also for **manufacturability** and **assembly convenience**.
 
 ## Main Components
 
@@ -62,17 +62,16 @@ The design used the following key parts:
 
 ## Manufacturing and Assembly
 
-As part of this project, I learned how to take a PCB from design stage to production by preparing and ordering both:
+Fabrication and assembly was done by JLPCB:
 - **PCB fabrication**
 - **PCB assembly (PCBA)**
 
 This included selecting assembly-friendly parts, preparing manufacturing outputs, and understanding how to structure a design so it can move efficiently into production.
 
-A key lesson was the value of checking component availability early in the design process rather than waiting until the board is finished.
 
 ## Bring-Up and Debugging
 
-During initial testing:
+During initial testing, from the GL823K:
 -5v from usb works 
 -3.3v from port 9 works 
 -3.3v from port 13, 8 doesnt works
@@ -90,14 +89,15 @@ This confirmed the root cause. Once external 3.3 V was injected into the problem
 
 ## Challenges Faced
 
-One practical issue I encountered was with the **orientation of the microSD card connector**. I misplaced the insertion direction, which made inserting the card difficult and inconvenient during testing.
+One practical issue encountered was with the **orientation of the microSD card connector**. The insertion direction was misplaced, which made inserting the card difficult and inconvenient during testing.
 
 Although the board was made to work, this was an important design lesson:
 - connector orientation matters just as much as electrical correctness
 - usability should be considered during PCB design, not only circuit functionality
 - physical interaction with the product is part of good hardware design
 
-This is something I would improve in the next revision.
+Also, a better chip than the GL823K should have been selected. The data sheet was scanty and there was a serious lack of application notes. As a result, 
+a 3.3V source was not added to the board because it was assumened that no LDO was needed to change 5V to 3.3V. External injection of 3.3V was done to make the board work.
 
 ## Final Result
 
